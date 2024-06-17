@@ -57,4 +57,21 @@
   .image-container:hover .overlay {
     height: 100%;
   }
-  
+  .new-h{
+    margin-top: 20px;
+    color: gray;
+  }
+  .new-hr{
+    margin-bottom: 50px;
+    margin: 20px 70px;
+    border: 0;
+    height: 2px;
+    background-color: lightseagreen;
+  }
+  .new-image{
+    cursor: pointer;
+    transition: 0.3s;
+  }
+  .new-image:hover{
+    transform: scale(1.1);
+  }
