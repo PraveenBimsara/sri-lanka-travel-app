@@ -19,14 +19,36 @@ const AboutUs = () => {
         </div>
 
         <div className='about-container'>
-            <img src={wild} alt=''/>
+            <div className='wlid'><img src={wild} alt=''/>
+            <h1>WILD</h1></div>
+            <div className='thrills'>
             <img src={thrills} alt=''/>
+            <h1>THRILLS</h1>
+            </div>
+            <div className='festive'>
             <img src={festive} alt=''/>
+            <h1>FESTIVE</h1>
+            </div>
+            <div className='heritage'>
             <img src={heritage} alt=''/>
+            <h1>HERITAGE</h1>
+            </div>
+            <div className='pristine'>
             <img src={pristine} alt=''/>
+            <h1>PRISTINE</h1>
+            </div>
+            <div className="bliss">
             <img src={bliss} alt=''/>
+            <h1>BLISS</h1>
+            </div>
+            <div className="essence">
             <img src={essence} alt=''/>
+            <h1>ESSENCE</h1>
+            </div>
+            <div className="scenic">
             <img src={scenic} alt=''/>
+            <h1>SCENIC</h1>
+            </div>
         </div>
     </div>
   )
