@@ -11,7 +11,7 @@ import scenic from '../../assets/scenic.png'
 
 const AboutUs = () => {
   return (
-    <div className='about-us'>
+    <div id='about-us' className='about-us'>
         <div className="about-title">
             <h1>Welcome to Sri Lanka</h1>
             <p>See what's waiting for you on your next island getaway.<br/>

@@ -1,14 +1,22 @@
-.navbar{
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    margin: 20px 70px;
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 20px 70px;
 }
-.navbar-menu{
-    display: flex;
-    align-items: center;
-    list-style: none;
-    gap: 60px;
-    font-size: 20px;
-    cursor: pointer;
+.navbar-menu {
+  display: flex;
+  align-items: center;
+  list-style: none;
+  gap: 60px;
+  font-size: 20px;
+  cursor: pointer;
+}
+.navbar-menu li a {
+  text-decoration: none;
+  color: inherit;
+}
+.navbar-menu li.active a {
+  color: #048097;
+  font-weight: bold;
 }

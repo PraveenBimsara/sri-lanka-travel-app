@@ -11,7 +11,7 @@ import promotion from '../../assets/Promotional.jpg'
 const NewProducts = () => {
   return (
     <>
-    <div className='new-products'>
+    <div id='new-products' className='new-products'>
       <div className="new-products-title">
         <h1>New Products</h1>
       </div>

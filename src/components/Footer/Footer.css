@@ -1,90 +1,88 @@
-.footer{
-    height: 100vh;
-    background-color: #048097;
+.footer {
+  height: 100vh;
+  background-color: #048097;
 }
-.footer-top{
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
-    margin: 20px 70px;
+.footer-top {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  margin: 20px 70px;
 }
-.footer-left{
-    text-align: center;
+.footer-left {
+  text-align: center;
 }
-.footer-left img{
-    width: 200px;
-    margin-bottom: 20px;
+.footer-left img {
+  width: 200px;
+  margin-bottom: 20px;
 }
-.footer-left h3{
-    color: white;
-    margin-bottom: 10px;
+.footer-left h3 {
+  color: white;
+  margin-bottom: 10px;
 }
-.footer-left p{
-    color: gainsboro;
-    cursor: pointer;
-    transition: 0.3s;
+.footer-left p {
+  color: gainsboro;
+  cursor: pointer;
+  transition: 0.3s;
 }
-.footer-left p:hover{
-    color: white;
-}
-
-.footer-center{
-    margin-top: 150px;
-    text-align: center;
-}
-.footer-center h3{
-    
-    color: white;
-    margin-bottom: 10px;
-}
-.footer-center p{
-    color: gainsboro;
-    line-height: 30px;
-    cursor: pointer;
-    transition: 0.3s;
-}
-.footer-center p:hover{
-    color: white;
+.footer-left p:hover {
+  color: white;
 }
 
-.footer-right{
-    margin-top: 150px;
-    text-align: center;
+.footer-center {
+  margin-top: 150px;
+  text-align: center;
 }
-.footer-right h3{
-    
-    color: white;
-    margin-bottom: 10px;
+.footer-center h3 {
+  color: white;
+  margin-bottom: 10px;
 }
-.footer-right p{
-    color: gainsboro;
-    line-height: 30px;
-    cursor: pointer;
-    transition: 0.3s;
+.footer-center p {
+  color: gainsboro;
+  line-height: 30px;
+  cursor: pointer;
+  transition: 0.3s;
 }
-.footer-right p:hover{
-    color: white;
-}
-.footer hr{
-    margin: 20px 70px;
-    margin-top: 50px;
-    height: 1px;
-    color: white;
+.footer-center p:hover {
+  color: white;
 }
 
-.footer-bottom{
-    margin-top: 50px;
-    justify-content: center;
-    align-items: center;
-    text-align: center;
+.footer-right {
+  margin-top: 150px;
+  text-align: center;
 }
-.social-icons{
-    display: flex;
-    gap: 20px;
-    justify-content: center;
+.footer-right h3 {
+  color: white;
+  margin-bottom: 10px;
 }
-.social-icon{
-    color: #048097;
+.footer-right p {
+  color: gainsboro;
+  line-height: 30px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+.footer-right p:hover {
+  color: white;
+}
+.footer hr {
+  margin: 20px 70px;
+  margin-top: 50px;
+  height: 1px;
+  color: white;
+}
+
+.footer-bottom {
+  margin-top: 50px;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+.social-icons {
+  display: flex;
+  gap: 20px;
+  justify-content: center;
+}
+.social-icon {
+  color: #048097;
   background-color: white;
   border-radius: 50%;
   display: inline-block;
@@ -96,23 +94,23 @@
   transition: background-color 0.3s, color 0.3s;
 }
 
-.footer-bottom-text{
-    margin-top: 20px;
-    color: gainsboro;
+.footer-bottom-text {
+  margin-top: 20px;
+  color: gainsboro;
 }
 
-.footer-bottom-privacy{
-    display: flex;
-    justify-content: center;
-    margin-top: 20px;
-    gap: 30px;
-    cursor: pointer;
+.footer-bottom-privacy {
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+  gap: 30px;
+  cursor: pointer;
 }
-.footer-bottom-privacy a{
-    text-decoration: none;
-    color: gainsboro;
-    transition: 0.3s;
+.footer-bottom-privacy a {
+  text-decoration: none;
+  color: gainsboro;
+  transition: 0.3s;
 }
-.footer-bottom-privacy a:hover{
-    color: grey;
+.footer-bottom-privacy a:hover {
+  color: grey;
 }

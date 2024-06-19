@@ -4,7 +4,7 @@ import explore from '../../assets/explore.jpg'
 
 const Explore = () => {
   return (
-    <div className="explore">
+    <div id="explore-stories" className="explore">
       <div className="explore-content">
         <div className="explore-title">
           <h1>Explore Island Stories</h1>

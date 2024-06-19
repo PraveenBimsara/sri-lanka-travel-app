@@ -13,7 +13,7 @@ import blacklist from '../../assets/Blacklisted_Service_Providers.jpg'
 const WhatToDo = () => {
   return (
     <>
-    <div className="what-to-do">
+    <div id="what-to-do" className="what-to-do">
       <div className="what-to-do-title">
         <h1>Plan Your Dream Holiday</h1>
         <p>
